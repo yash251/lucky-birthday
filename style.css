@@ -45,11 +45,6 @@
     margin: 1rem 0;
   }
   
-  #calculate-number {
-    margin: 0.5rem auto;
-    display: block;
-  }
-  
   #check-number {
     background-color: var(--background-dark);
     border: 2px solid var(--text-color);
@@ -74,4 +69,9 @@
     border-color: var(--text-color);
     border-width: medium;
     border-radius: 5px;
+  }
+
+  footer {
+    padding-top: 3rem;
+    text-align: center;
   }
