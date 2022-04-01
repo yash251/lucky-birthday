@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+:root {
+    --background-dark: #bae6fd;
+    --text-color: #312e81;
+  }
+  
+  html {
+    background-color: var(--background-dark);
+    color: var(--text-color);
+    height: 100%;
+  }
+  
+  * {
+    font-family: 'Roboto Mono', monospace;
+  }
+  
+  .header {
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .container {
+    width: 300px;
+    margin: auto auto;
+  }
+  
+  label,
+  input {
+    display: block;
+    margin-top: 0.5rem;
+    width: 100%;
+  }
+  
+  label {
+    font-weight: 500;
+    font-size: 1.3rem;
+  }
+  
+  input {
+    border-radius: 5px;
+    padding: 0.5rem;
+    border: transparent;
+    font-size: large;
+    margin: 1rem 0;
+  }
+  
+  #calculate-number {
+    margin: 0.5rem auto;
+    display: block;
+  }
+  
+  #check-number {
+    background-color: var(--background-dark);
+    border: 2px solid var(--text-color);
+    color: var(--text-color);
+    padding: 0.4rem 1rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    cursor: pointer;
+    outline: var(--text-color);
+    margin: auto;
+    display: block;
+  }
+  
+  #output-box {
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: x-large;
+    border-color: var(--text-color);
+    border-width: medium;
+    border-radius: 5px;
+  }
