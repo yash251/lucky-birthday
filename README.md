@@ -4,3 +4,4 @@
 - And his/her lucky number. 
 - Now, find out if sum of digits of birthday is divisible by the lucky number. 
 - Show the result to user with some graphics.
+View the app [here](https://yashjagtap-lucky-birthday.netlify.app/)
